@@ -24,11 +24,11 @@ gr()
 //! global vs script scope
 function hello() {{
     var name1 = "yash";
-    let name2 ="praba";
-    const name3 = "ajith";
+    //let  name2 ="praba";
+    //const a = "ajith";
 }
     console.log(name1);//yash
-    console.log(name2);//
-    console.log(name3);//
+    //console.log(name2);//
+   // console.log(a);//
 }
 hello()
