@@ -94,9 +94,84 @@ console.log(""==0)//true
 console.log(""===0)//false
 console.log(false==0)//true
 console.log(false===0)//flase
-//logical operator
+//logical operator---> its return first FALSY value last TRUTHY value
 let x = 10;
 let y=20;
 let z="10";
- //AND &&
- 
+ //AND && 
+ console.log(x<y && y>x)//false
+ console.log(x===z&&x==z)//false
+ console.log(true && true && true)//true
+ console.log(0&&20)//20
+ console.log(10&&20)//20
+ console.log(""&&"js")//""
+ //OR || ---> its return first TRUTHY value last FALSY value
+ console.log(x>y || y>x)//true
+ console.log(10||20)//10
+ console.log(""||"js")//js
+ console.log(0||20)//20
+ //NOT (!)
+ console.log(!true)//false
+ console.log(!10>5)//false
+ console.log(!false)//true
+
+// 5. ASSIGNMENT OPERATORS
+//+= -= *= /= %=
+// +=
+let numm = 10
+numm += 5
+console.log(numm) //15
+numm += "10"
+console.log(numm) //1510
+
+// -=
+let num4 = 20
+num4 -= 5
+console.log(num4)  //15
+num4 -= "5"
+console.log(num4) //10
+
+// '*='
+let num5 = 5
+num5 *= 2
+console.log(num5) //10
+num5 *= "2"
+console.log(num5) //20
+
+// /=
+let num6 = 20
+num6 /= 2
+console.log(num6) //10
+num6 /= "2"
+console.log(num6) //5
+
+// %=
+let num7 = 10
+num7 %= 3
+console.log(num7) //1
+num7 %= "2"
+console.log(num7) //1
+
+//TERNARY / CONDITIONAL OPERATOR
+//Syntax: condition ? trueBlock : falseBlock
+
+//EXAMPLE 1
+let understandingJs = true;
+understandingJs ? console.log("Meeke Manchidi") : console.log("ni chavu nuvvu chavu")
+
+//EXAMPLE 2
+let amount = 200
+let result = amount >= 150 ? "Eat Chicken Biryani" : "Muskoni Pg lo Tinnu"
+console.log(result)
+
+// UNARY OPERATORS
+
+// UNARY PLUS (+)
+console.log(+"10") //10
+console.log(typeof +"10") //number
+console.log(+"100abc") //NaN
+
+// UNARY MINUS (-)
+console.log(-"10") //-10
+console.log(-true) //-1
+console.log(-false) //-0
