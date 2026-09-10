@@ -59,3 +59,44 @@ console.log(2**2)//4
 console.log(2**3)//8
 console.log("2"**"3")//8
 console.log(2**undefined)//NaN
+
+//Increment  and Decrement operators
+//pre increment
+let a = 10;
+console.log(++a)//11
+console.log(a)//11
+//post increment
+let num =10;
+console.log(num++)//10
+console.log(num)//11
+//pre decrement
+let b = 10;
+console.log(--b)//9
+console.log(b)//9
+//post decrement
+let c =10;
+console.log(c--)//10
+console.log(c)//9
+
+//comparision or Relational operator
+let num1 =10;
+let num2=20;
+let num3 ="10";
+console.log(num1>num2)//flase
+console.log(num1<num2)//true
+console.log(num1<=num3)//true
+console.log(num1>=num3)//true
+console.log(num1==num3)//true
+console.log(num1===num3)//flase
+console.log(num1!=num3)//flase
+console.log(num1!==num3)//true
+console.log(""==0)//true
+console.log(""===0)//false
+console.log(false==0)//true
+console.log(false===0)//flase
+//logical operator
+let x = 10;
+let y=20;
+let z="10";
+ //AND &&
+ 
